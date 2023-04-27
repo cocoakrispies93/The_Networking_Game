@@ -9,7 +9,7 @@ import 'package:weather/weather.dart';
 class WeatherApi {
   static const endPointUrl = 'https://api.openweathermap.org/data/2.5';
   static const apiKey =
-      '3af78672e3889394770a15a0f2ef8e18';
+      'API_KEY';
   late http.Client httpClient;
 
   WeatherApi() {
