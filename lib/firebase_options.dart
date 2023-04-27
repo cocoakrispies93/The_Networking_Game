@@ -45,42 +45,42 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyBzi7GzJPzq6n6QidwLKb19NdsMRnLailA',
-    appId: '1:876583201990:web:d70115f4b05c74109f3bc7',
-    messagingSenderId: '876583201990',
-    projectId: 'fir-flutter-codelab-50fe3',
-    authDomain: 'fir-flutter-codelab-50fe3.firebaseapp.com',
-    storageBucket: 'fir-flutter-codelab-50fe3.appspot.com',
-    measurementId: 'G-Q0LH5KKPLK',
+    apiKey: 'API_KEY',
+    appId: 'APP_ID',
+    messagingSenderId: 'MESSAGE_SENDER_ID',
+    projectId: 'PROJECT_ID',
+    authDomain: 'AUTH_DOMAIN',
+    storageBucket: 'STORAGE_BUCKET',
+    measurementId: 'MEASUREMENT_ID',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyAeBJD3OohyGa2TGnOnOEwjrv4XTXE7f-U',
-    appId: '1:876583201990:android:fb7b58992c9d1f8a9f3bc7',
-    messagingSenderId: '876583201990',
-    projectId: 'fir-flutter-codelab-50fe3',
-    storageBucket: 'fir-flutter-codelab-50fe3.appspot.com',
+    apiKey: 'API_KEY-U',
+    appId: 'APP_ID',
+    messagingSenderId: 'MESSAGE_SENDER_ID',
+    projectId: 'PROJECT_ID',
+    storageBucket: 'STORAGE_BUCKET',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyDwhbbM7QVKAAWxu9I_6Bj8lCe0oFDt_WA',
-    appId: '1:876583201990:ios:173b80a360f08e799f3bc7',
-    messagingSenderId: '876583201990',
-    projectId: 'fir-flutter-codelab-50fe3',
-    storageBucket: 'fir-flutter-codelab-50fe3.appspot.com',
+    apiKey: 'API_KEY',
+    appId: 'APP_ID',
+    messagingSenderId: 'MESSAGE_SENDER_ID',
+    projectId: 'PROJECT_ID',
+    storageBucket: 'STORAGE_BUCKET',
     iosClientId:
-        '876583201990-a7amf702v45esgnkb45vgckorun5e4fn.apps.googleusercontent.com',
-    iosBundleId: 'com.example.gtkFlutter',
+        'IOS_CLIENT_ID',
+    iosBundleId: 'IOS_BUNDLE_ID',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyDwhbbM7QVKAAWxu9I_6Bj8lCe0oFDt_WA',
-    appId: '1:876583201990:ios:173b80a360f08e799f3bc7',
-    messagingSenderId: '876583201990',
-    projectId: 'fir-flutter-codelab-50fe3',
-    storageBucket: 'fir-flutter-codelab-50fe3.appspot.com',
+    apiKey: 'API_KEY',
+    appId: 'APP_ID',
+    messagingSenderId: 'MESSAGE_SENDER_ID',
+    projectId: 'PROJECT_ID',
+    storageBucket: 'STORAGE_BUCKET',
     iosClientId:
-        '876583201990-a7amf702v45esgnkb45vgckorun5e4fn.apps.googleusercontent.com',
-    iosBundleId: 'com.example.gtkFlutter',
+        'IOS_CLIENT_ID',
+    iosBundleId: 'IOS_BUNDLE_ID',
   );
 }
