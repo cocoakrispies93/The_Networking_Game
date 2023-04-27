@@ -316,10 +316,10 @@ class _Linkedin_LoginState extends State<Linkedin_Login> {
 //==================
 
 class LinkedIn {
-  static const String clientId = '86ydjzjvea9mw2';
-  static const String clientSecret = 'CvKLqkJ6S7Fp1wY7';
+  static const String clientId = 'CLIENT_ID';
+  static const String clientSecret = 'CLIENT_SECRET';
   //static const String redirectUri = 'http://example.com:8000/oauth2callback';
-  static const String redirectUri = 'http://localhost:3000/oauth/callback';
+  static const String redirectUri = 'http://localhost:1234/oauth/callback';
   //static const String redirectUri = 'http';
   static const String scope = 'r_emailaddress r_liteprofile w_member_social';
 
