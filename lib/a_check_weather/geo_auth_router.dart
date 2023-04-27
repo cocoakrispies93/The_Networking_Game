@@ -146,7 +146,7 @@ class _WeatherViewerState extends State<WeatherViewer> {
   String cityName = '';
   LatLng? currentPosition;
   final String url = 'https://maps.googleapis.com/maps/api/geocode/';
-  final String apiKey = 'AIzaSyAIFGEz1CIBDTdVUJvCf751dVLPHrqX7nc';
+  final String apiKey = 'API_KEY';
 
   String _currentLocationStr1 = '';
   bool _isLoading = true;
