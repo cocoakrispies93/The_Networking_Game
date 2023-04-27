@@ -40,9 +40,9 @@ class LoginConnectScreen extends StatelessWidget {
 //Use multiple methods with multiple implementations, see which one works!
 
 class LinkedInAuthProvider extends ChangeNotifier {
-  static const String clientId = '86ydjzjvea9mw2';
-  static const String clientSecret = 'CvKLqkJ6S7Fp1wY7';
-  static const String redirectUri = 'http://localhost:3000/oauth/callback';
+  static const String clientId = 'CLIENT_ID';
+  static const String clientSecret = 'CLIENT_SECRET';
+  static const String redirectUri = 'http://localhost:1234/oauth/callback';
   static const String scope = 'r_emailaddress r_liteprofile w_member_social';
 
   static const String authorizationEndpoint =
