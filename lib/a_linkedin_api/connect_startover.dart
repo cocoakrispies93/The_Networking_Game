@@ -1,16 +1,14 @@
 // ignore_for_file: library_private_types_in_public_api
 
-import 'package:flutter/material.dart';
-import 'package:shared_preferences/shared_preferences.dart';
-import 'package:provider/provider.dart';
-import 'package:http/http.dart' as http;
 import 'dart:convert';
 
-import '../firebase/guest_state_firebase.dart';
-//this allows me to add LinkedIn API auth to Firebase
-import '../firebase_options.dart';
-import '../screens/profile_page.dart';
+import 'package:flutter/material.dart';
+import 'package:http/http.dart' as http;
+import 'package:provider/provider.dart';
+import 'package:shared_preferences/shared_preferences.dart';
+
 import '../firebase/github_firebase.dart';
+import '../screens/profile_page.dart';
 
 //void main() => runApp(const MyApp());
 

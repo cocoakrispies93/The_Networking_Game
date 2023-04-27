@@ -1,28 +1,13 @@
 // ignore_for_file: avoid_print, camel_case_types
 
-import 'package:flutter/material.dart';
-//import 'package:webview_flutter/webview_flutter.dart';
-import 'package:shared_preferences/shared_preferences.dart';
-import 'package:firebase_auth/firebase_auth.dart';
-import 'package:http/http.dart' as http;
-import 'dart:convert';
-import 'package:provider/provider.dart';
 import 'dart:async';
-import 'package:linkedin_login/linkedin_login.dart';
-import 'package:flutter_web_auth/flutter_web_auth.dart';
-//import 'package:firebase_get/Firestore/database_manager.dart';
-import 'package:firebase_database/firebase_database.dart';
+import 'dart:convert';
 
-import '../app_styles/nav_bar_v2.dart';
-import '../firebase/guest_state_firebase.dart';
-import '../a_webview/loadfile_menu_ex.dart';
-import '../a_webview/new_webview_v2.dart';
-import '../a_webview/webnav_ex.dart';
-import 'linkedin_login_screen.dart';
-import 'linkedin_api_auth.dart';
-import 'linkedin_share.dart';
-import '../firebase_options.dart';
-import '../firebase/guest_book.dart';
+import 'package:firebase_auth/firebase_auth.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter_web_auth/flutter_web_auth.dart';
+import 'package:http/http.dart' as http;
+import 'package:provider/provider.dart';
 
 class ConnectPage extends StatelessWidget {
   ConnectPage({super.key});

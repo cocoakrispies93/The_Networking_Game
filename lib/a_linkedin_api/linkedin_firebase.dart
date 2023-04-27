@@ -10,12 +10,8 @@ import 'package:firebase_auth/firebase_auth.dart'
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_ui_auth/firebase_ui_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:intl/intl.dart';
-import 'package:linkedin_login/linkedin_login.dart';
 
-import '../firebase/firebase_options.dart';
-import '../firebase/guest_book_message.dart';
-import 'connect_startover.dart';
+import '../firebase_options.dart';
 
 class LinkedInAuthState extends ChangeNotifier {
   LinkedInAuthState() {

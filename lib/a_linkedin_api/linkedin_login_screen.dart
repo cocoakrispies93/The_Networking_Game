@@ -1,15 +1,12 @@
 // ignore_for_file: camel_case_types, avoid_print
 
-import 'package:flutter/material.dart';
-import 'package:flutter_web_auth/flutter_web_auth.dart';
-import 'package:linkedin_login/linkedin_login.dart';
-import 'linkedin_api_auth.dart';
-import 'linkedin_share.dart';
-import "package:http/http.dart" as http;
 import 'dart:async';
 import 'dart:convert';
+
+import 'package:flutter/material.dart';
+import 'package:flutter_web_auth/flutter_web_auth.dart';
+import 'package:http/http.dart' as http;
 import 'package:provider/provider.dart';
-import 'package:shared_preferences/shared_preferences.dart';
 
 //==================
 //   Connect Page
