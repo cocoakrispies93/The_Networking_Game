@@ -118,7 +118,7 @@ class _LinkedInShareWidgetState extends State<LinkedInShareWidget> {
         HttpHeaders.contentTypeHeader: 'application/json',
       },
       body: json.encode({
-        'author': 'urn:li:person:8675309',
+        'author': 'urn:li:person:CODE',
         'lifecycleState': 'PUBLISHED',
         'specificContent': {
           'com.linkedin.ugc.ShareContent': {
